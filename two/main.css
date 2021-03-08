@@ -1,0 +1,40 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+     
+}
+h1,h2,h3,h4,h5{
+    font-weight: 700;
+}
+a{
+    color: violet;
+}
+input{
+    background-color: rgb(53, 53, 53) !important;
+    color: violet !important;
+}
+/*HEADER*/
+.navbar{
+    background-color: black ;
+    color: violet !important;
+}
+.navbar-brand{
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+.btn-main{
+    background-color: violet !important;
+    color: whitesmoke; !important
+}
+/*HERO*/
+.hero{
+    background-color: rgb(95, 44, 65);
+    
+}
+.hero-post-badges{
+    background-color: black;
+    text-align: center;
+}
+.hero-post-content{
+    position: relative;
+}
+

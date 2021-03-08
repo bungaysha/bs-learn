@@ -1,0 +1,114 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+h2{
+    text-transform:uppercase;
+    font-weight: 700;
+}
+h3,h4{
+    font-weight: 700;
+}
+h1{
+    font-weight: 900;
+    font-size: 6rem;
+    text-transform: uppercase;
+    color: rgb(156, 214, 236);
+    text-align: center;
+}
+a{
+    color: rgb(156, 214, 236);
+}
+a:hover{
+    color: yellow;
+}
+span{
+    color:violet
+}
+img.rounded-circle{
+    width: 125px;
+    height: 125px;
+    object-fit: cover;
+    border: 5px solid violet;
+}
+/*NAVBAR*/
+.navbar{
+    text-transform: uppercase;
+}
+.navbar-brand{
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+.nav-link{
+    font-weight: 400;
+}
+/*HERO*/
+.hero{
+    position: relative;
+}
+.hero-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50% );
+    border: 1px solid rgb(156, 214, 236) ;
+    
+}
+/*CALL TO ACTION*/
+.dark-background{
+    background-color: black;
+    color: white;
+}
+
+.btn-main{
+    background-color: violet;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.btn-main:hover{
+    color:violet;
+    background-color: white;
+}
+/*SERVICES*/
+.service-icon{
+    background-color: rgb(248, 152, 200);
+}
+.service-icon i{
+    font-size: 2rem;
+    color: white;
+}
+/*TESTIMONIALS*/
+.slider-item{
+    display: none;
+}
+.active-slider-item{
+    display:block;
+}
+/*TEAM*/
+.team-social-links {
+    background-color: violet;
+    top: 20px;
+    right: 20px;
+    text-align: center;
+}
+.team-social-links i{
+    color: white;
+}
+.team-social-links i:hover{
+    color: yellow;
+}
+/*FOOTER*/
+.footer-social-links a{
+    color: whitesmoke;
+}
+.footer-social-links a:hover{
+    color: violet;
+}
+footer input, footer textarea{
+    width: 100%;
+    font-size: 1rem;
+    padding: 0.8rem 1rem;
+    margin-bottom: 0.5rem;
+}
